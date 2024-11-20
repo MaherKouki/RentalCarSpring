@@ -22,7 +22,7 @@ public class BookACarDto {
 
     private BookCarStatus bookCarStatus;
 
-    private Long cardId;
+    private Long carId;
 
     private Long userId;
 

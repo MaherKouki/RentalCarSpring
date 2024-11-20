@@ -10,7 +10,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/customer")
 @RequiredArgsConstructor
@@ -24,14 +24,14 @@ public class CustomerController {
     }
 
 
-    /*@PostMapping("car/book/{carId}")
+    @PostMapping("/car/book/{carId}")
     public ResponseEntity<Void> bookACar(@PathVariable Long carId , @RequestBody BookACarDto bookACarDto){
         boolean success = customerService.bookACar(carId , bookACarDto);
         if(success)
             return ResponseEntity.status(HttpStatus.CREATED).build();
         else
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
-    }*/
+    }
 
 
     @GetMapping("/car/{carId}")

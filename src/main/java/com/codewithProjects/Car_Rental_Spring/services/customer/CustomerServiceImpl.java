@@ -57,7 +57,7 @@ public class CustomerServiceImpl implements CustomerService{
     }*/
 
 
-    /*
+
     @Override
     public boolean bookACar(Long carId, BookACarDto bookACarDto) {
         Optional<User> optionalUser = userRepository.findById(bookACarDto.getUserId());
@@ -77,7 +77,7 @@ public class CustomerServiceImpl implements CustomerService{
             return true;
         }
         return false;
-    }*/
+    }
 
 
 
