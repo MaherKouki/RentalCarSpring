@@ -43,7 +43,7 @@ public class BookACar {
 
 
 
-    /*public BookACarDto getBookACarDto(){
+    public BookACarDto getBookACarDto(){
         BookACarDto bookACarDto = new BookACarDto();
         bookACarDto.setId(id);
         bookACarDto.setDays(days);
@@ -51,13 +51,13 @@ public class BookACar {
         bookACarDto.setPrice(price);
         bookACarDto.setToDate(toDate);
         bookACarDto.setFromDate(fromDate);
-        //bookACarDto.setEmail(user.getEmail());
-        //bookACarDto.setUsername(user.getName());
+        bookACarDto.setEmail(user.getEmail());
+        bookACarDto.setUsername(user.getName());
         bookACarDto.setUserId(user.getId());
-        bookACarDto.setCardId(car.getId());
+        bookACarDto.setCarId(car.getId());
         return bookACarDto;
 
-    }*/
+    }
 
 
 }
