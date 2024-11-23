@@ -2,6 +2,8 @@ package com.codewithProjects.Car_Rental_Spring.services.customer;
 
 import com.codewithProjects.Car_Rental_Spring.dto.BookACarDto;
 import com.codewithProjects.Car_Rental_Spring.dto.CarDto;
+import com.codewithProjects.Car_Rental_Spring.dto.CarDtoListDto;
+import com.codewithProjects.Car_Rental_Spring.dto.SearchCarDto;
 import com.codewithProjects.Car_Rental_Spring.entity.Car;
 
 import java.util.List;
@@ -16,5 +18,7 @@ public interface CustomerService {
     CarDto getCarById(Long carId);
 
     List<BookACarDto> getBookingsByUserId(Long userId);
+
+    CarDtoListDto searchCar(SearchCarDto searchCarDto);
 
 }
